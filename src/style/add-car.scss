@@ -1,0 +1,22 @@
+.add-car {
+  background-image: url(../images/ASDC_6-EDITED.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f30909;
+  // #0075a2
+
+  &-form {
+    min-width: 20vw;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
