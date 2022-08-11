@@ -1,22 +1,31 @@
 .add-car {
-  // background-image: url(../images/ASDC_6-EDITED.jpg);
-  // background-attachment: fixed;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: fill;
+  background-image: url(../images/ASDC_6-EDITED.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #0075a2;
+  color: #c50000;
   // #0075a2
 
   &-form {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     min-width: 20vw;
     max-width: 80vw;
+    height: 400px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .add-car-form-input {
+      box-shadow: 5px 10px 60px 0px rgba(235, 8, 8, 0.75);
+      -webkit-box-shadow: 5px 10px 60px 0px rgba(235, 8, 8, 0.75);
+      -moz-box-shadow: 5px 10px 60px 0px rgba(235, 8, 8, 0.75);
+      margin-bottom: 20px;
+    }
   }
 }

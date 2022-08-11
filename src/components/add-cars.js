@@ -40,7 +40,7 @@ export default function addCar() {
           className="add-car-form-input"
           onChange={(event) => setPrice(event.target.value)}
           type="number"
-          placeholder="price"
+          placeholder="Price"
         />
         <textarea
           className="add-car-form-input"

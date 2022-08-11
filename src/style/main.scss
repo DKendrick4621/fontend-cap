@@ -29,6 +29,10 @@ body {
   display: grid;
   justify-items: center;
 }
+.sound {
+  display: flex;
+  opacity: -1;
+}
 @import "./navbar.scss";
 @import "./add-car.scss";
 @import "./garage.scss";

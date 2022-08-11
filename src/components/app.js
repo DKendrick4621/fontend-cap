@@ -35,6 +35,14 @@ export default class App extends Component {
     return (
       <div className="app">
         <h1>My Garage</h1>
+        <audio
+          controls
+          autoPlay={true}
+          volume={40}
+          src="Drift.mp3"
+          className="sound"
+          type="audio/mp3"
+        />
         <div className="BG">{this.renderCars()}</div>
       </div>
     );
